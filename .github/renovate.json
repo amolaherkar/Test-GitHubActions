@@ -1,0 +1,40 @@
+{
+    "endpoint": "https://api.github.com/",
+    "token": "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",
+    "platform": "github",
+    "onboardingConfig": {
+        "extends": [
+            "config:base",
+            ":dependencyDashboard"
+        ]
+    },
+    "repositories": [
+        "amolaherkar/Test-GitHubActions"
+    ],
+    "renovateFork": true,
+    "gitAuthor": "Amol Aherkar <amolaherkar@gmail.com>",
+    "username": "amolaherkar",
+    "onboarding": false,
+    "printConfig": true,
+    "requireConfig": false,
+    "recreateClosed": true,
+    "packageRules": [
+        {
+            "matchDepTypes": [
+                "dependencies"
+            ],
+            "matchUpdateTypes": [
+                "major",
+                "minor",
+                "patch",
+                "pin",
+                "digest",
+                "lockFileMaintenance",
+                "rollback",
+                "bump"
+            ],
+            "groupName": "dependencies",
+            "semanticCommitType": "fix"
+        }
+    ]
+}
