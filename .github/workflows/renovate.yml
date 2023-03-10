@@ -14,7 +14,7 @@ jobs:
       - name: Renovate Github
         uses: renovatebot/github-action@v34.82.0
         with:
-          configurationFile: config/renovate-config.js
+          configurationFile: ../.github/config.js
           token: ${{ secrets.GIT_TOKEN }}
         env:
           RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }} 
