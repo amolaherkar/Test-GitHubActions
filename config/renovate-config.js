@@ -12,6 +12,6 @@ module.exports = {
   dryRun: 'full',
   recreateClosed: 'true',
   repositories: [
-    'amolaherkar/SmartBucket-RenovateAction'
+    'amolaherkar/Test-GitHubActions'
   ],
 };
