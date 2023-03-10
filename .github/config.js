@@ -1,13 +1,8 @@
 module.exports = {
-    onboardingConfig: {
-        extends: [
-            "config:base"
-            ]
-    },
-    recreateClosed: 'true',
-    branchPrefix: 'test-renovate/',
-    gitAuthor: 'Amol Aherkar <amolaherkar@gmail.com>',
+    branchPrefix: 'aa-renovate/',
+    gitAuthor: 'Amol A <amolaherkar@gmail.com>',
     onboarding: false,
     platform: 'github',
+	recreateClosed: 'true',
     repositories: ['amolaherkar/Test-GitHubActions'],
 };
