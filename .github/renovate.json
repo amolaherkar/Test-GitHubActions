@@ -1,6 +1,5 @@
 {
     "endpoint": "https://api.github.com/",
-    "token": "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",
     "platform": "github",
     "onboardingConfig": {
         "extends": [
