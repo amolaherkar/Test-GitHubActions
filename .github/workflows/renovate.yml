@@ -41,5 +41,5 @@ jobs:
         with:
           configurationFile: ./.github/config.js
         env:
-          RENOVATE_REPOSITORIES: amolaherkar/Saample-Reno
+          RENOVATE_REPOSITORIES: amolaherkar/Test-GitHubActions
           RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }} 
