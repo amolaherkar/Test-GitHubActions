@@ -1,15 +1,13 @@
 module.exports = {
   branchPrefix: 'Smart-',
   username: 'amolaherkar',
-  gitAuthor: 'Renovate Bot <amolaherkar@gmail.com>',
+  gitAuthor: 'Amol A <amolaherkar@gmail.com>',
   onboarding: false,
   platform: 'github',
   logLevel: 'debug',
   onboardingConfig: {
     extends: ['config:base'],
   },
-  includeForks: true,
-  dryRun: 'full',
   recreateClosed: 'true',
   repositories: [
     'amolaherkar/Test-GitHubActions'
