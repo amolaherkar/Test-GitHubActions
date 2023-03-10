@@ -1,3 +1,3 @@
 # SmartBucket-RenovateAction
 
-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
+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
