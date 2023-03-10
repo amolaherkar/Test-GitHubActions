@@ -1,4 +1,9 @@
 module.exports = {
+    onboardingConfig: {
+        extends: [
+            "config:base"
+            ]
+    },
     branchPrefix: 'test-renovate/',
     gitAuthor: 'Amol Aherkar <amolaherkar@gmail.com>',
     onboarding: false,
