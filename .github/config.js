@@ -5,4 +5,12 @@ module.exports = {
     platform: 'github',
 	recreateClosed: 'true',
     repositories: ['amolaherkar/Test-GitHubActions'],
+    vulnerabilityAlerts: {
+	enabled: "true",
+	labels: ["Vulnerability FOUND"],
+	matchDepTypes: ["compile"],
+	matchUpdateTypes: ["patch", "major", "minor"],
+	groupName: "vulnerability-remediation",
+	groupSlug: "CVE-Fixes"
+    }
 };
